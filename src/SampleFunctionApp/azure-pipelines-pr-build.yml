@@ -6,7 +6,7 @@ variables:
   code_coverge_threshold: '60'
 
 pool:
-  vmImage: 'ubuntu-16.04'
+  vmImage: 'ubuntu-latest'
 
 steps:
 - task: NodeTool@0 
